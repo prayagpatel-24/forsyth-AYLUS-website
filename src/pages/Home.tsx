@@ -18,9 +18,10 @@ const Home = () => {
 
   // Placeholder images for the carousel
   const carouselImages = [
-    'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&h=400&fit=crop',
-    'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&h=400&fit=crop',
-    'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600&h=400&fit=crop',
+    'images/forsyth-park-2.jpg?w=600&h=400&fit=crop',
+    'images/Forsyth-book-1.jpg?w=600&h=400&fit=crop',
+    'images/forsyth-park-1.png?w=600&h=400&fit=crop',
+    'images/forsyth-thrift-1.png?w=600&h=400&fit=crop'
   ];
 
   const nextImage = () => {
@@ -78,53 +79,25 @@ const Home = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    The Forsyth County AYLUS Branch, founded in 2024, aims to foster 
-                    community service and support those in need throughout northeast 
-                    Atlanta through youth leadership. The greater Atlanta area, specifically 
-                    Forsyth County, has many motivated students who actively search for 
-                    volunteering opportunities and ways to give back to the community. 
-                    With over 30 schools in the county school district, numerous students 
-                    would gain experience from AYLUS and could contribute to a larger 
-                    goal. Specifically, our team of leaders is very motivated to create 
-                    change by producing a tangible impact – not just in our county – but 
-                    throughout Atlanta. This branch will create unique volunteering 
-                    opportunities, making volunteering much more than just another 
-                    commitment. The plan to recruit members is to use social media 
-                    on multiple platforms to reach out to many students – getting them 
-                    involved in the chapter’s endeavors. Social media will be the 
-                    primary way to communicate with volunteers, and we will regularly 
-                    post activities and opportunities with interactive aspects to 
-                    receive ideas. Our vision is to target major fields one at a time. 
-                    For example, we would set a goal for an environmental goal 
-                    (ex., collecting 500 pounds of trash from local parks), and once 
-                    that is reached, we would move to a healthcare task (ex., putting 
-                    together and constructing 50 first aid dispensers in public areas). 
-                    Many such events will target fundraising creatively, such as 
-                    running events where we donate to a good cause and support the 
-                    chapter financially. We hope to create a visible impact on the 
-                    community around us through youth leadership, and a wonderful 
-                    organization like AYLUS is perfect!
+                    The Forsyth County AYLUS Branch, founded in 2024, empowers youth to serve the 
+                    northeast Atlanta community through leadership and meaningful volunteer opportunities. 
+                    With over 30 schools in the county, many motivated students can gain experience 
+                    and help achieve significant local impact. Our leaders are committed to making 
+                    a difference not only in Forsyth County but throughout Atlanta. We will use social 
+                    media to recruit and communicate with members, regularly posting activities and 
+                    encouraging input. Our projects will focus on major community needs one at a time, 
+                    such as environmental cleanups or healthcare initiatives, along with creative 
+                    fundraising events. Through youth-driven service, AYLUS aims to create visible, 
+                    positive change in the community.
                   </p>
                 </CardContent>
               </Card>
 
-              {/* Chapter Story */}
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-primary">Our Story</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    Established in 2024, AYLUS Forsyth Branch represents the newest chapter 
-                    in a growing movement of youth-led community service. Our branch has 
-                    quickly grown to over 50 dedicated members committed to making a difference.
-                  </p>
-                </CardContent>
-              </Card>
+              {/* Chapter Story moved to About Us page */}
             </div>
 
             {/* Right Content - Image Carousel */}
-            <div className="relative">
+            <div className="relative mt-64">
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <img
                   src={carouselImages[currentImage]}
@@ -162,69 +135,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Leadership Section */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-foreground mb-4">Our Leadership Team</h2>
-            <p className="text-xl text-muted-foreground">
-              Meet the dedicated leaders driving our mission forward
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* President */}
-            <Card className="text-center">
-              <CardContent className="pt-6">
-                <div className="w-32 h-32 bg-muted rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary">PS</span>
-                </div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">Parth Shah</h3>
-                <p className="text-primary font-medium">President</p>
-              </CardContent>
-            </Card>
-
-            {/* Vice President */}
-            <Card className="text-center">
-              <CardContent className="pt-6">
-                <div className="w-32 h-32 bg-muted rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary">SA</span>
-                </div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">Sakeeth Alla</h3>
-                <p className="text-primary font-medium">Vice President</p>
-              </CardContent>
-            </Card>
-
-            {/* Secretary */}
-            <Card className="text-center">
-              <CardContent className="pt-6">
-                <div className="w-32 h-32 bg-muted rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary">PP</span>
-                </div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">Prayag Patel</h3>
-                <p className="text-primary font-medium">Secretary</p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* National AYLUS Values */}
-      <section className="bg-secondary py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Card>
-            <CardHeader className="text-center">
-              <CardTitle className="text-3xl text-primary">National AYLUS Values</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-center text-muted-foreground text-lg">
-                [National AYLUS Values Placeholder] - Values content will be added later.
-              </p>
-            </CardContent>
-          </Card>
         </div>
       </section>
 

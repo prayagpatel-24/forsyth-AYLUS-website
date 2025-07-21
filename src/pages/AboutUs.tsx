@@ -16,7 +16,7 @@ const AboutUs = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Left Column - Content */}
           <div className="space-y-8">
-            {/* Mission Statement */}
+            {/* Mission Statement
             <Card>
               <CardHeader>
                 <CardTitle className="text-primary">Chapter Mission Statement</CardTitle>
@@ -28,7 +28,7 @@ const AboutUs = () => {
                   leadership skills and creating positive change in our community.
                 </p>
               </CardContent>
-            </Card>
+            </Card> */}
 
             {/* Chapter Story */}
             <Card>
@@ -36,16 +36,10 @@ const AboutUs = () => {
                 <CardTitle className="text-primary">Our Story</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  <strong>Established in 2024</strong>, AYLUS Forsyth Branch represents 
-                  the newest chapter in a growing movement of youth-led community service. 
-                  Our branch has quickly grown to become a vital part of the Forsyth County 
-                  community service ecosystem.
-                </p>
                 <p className="text-muted-foreground">
-                  In our short time, we've recruited over 50 dedicated members and organized 
-                  9 successful community service events, making a tangible impact on our 
-                  local community through park cleanups, charity drives, and educational initiatives.
+                  Established in 2024, AYLUS Forsyth Branch represents the newest chapter 
+                  in a growing movement of youth-led community service. Our branch has 
+                  quickly grown to over 50 dedicated members committed to making a difference.
                 </p>
               </CardContent>
             </Card>
@@ -76,63 +70,66 @@ const AboutUs = () => {
                 <div className="space-y-6">
                   {/* President */}
                   <div className="flex items-center space-x-4">
-                    <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
-                      <span className="text-lg font-bold text-primary">PS</span>
+                    <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-primary">
+                      <img
+                        src="images/Parth_shah.jpg"
+                        alt="Parth Shah"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-foreground">Parth Shah</h3>
-                      <p className="text-primary font-medium">President</p>
+                      <p className="text-primary font-medium">President [Co-Founder]</p>
                     </div>
                   </div>
 
                   {/* Vice President */}
                   <div className="flex items-center space-x-4">
-                    <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
-                      <span className="text-lg font-bold text-primary">SA</span>
+                    <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-primary">
+                      <img
+                        src="images/Rama Alla.jpg"
+                        alt="Sakeeth Alla"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-foreground">Sakeeth Alla</h3>
-                      <p className="text-primary font-medium">Vice President</p>
+                      <p className="text-primary font-medium">Vice President [Co-Founder]</p>
                     </div>
                   </div>
 
                   {/* Secretary */}
                   <div className="flex items-center space-x-4">
-                    <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center">
-                      <span className="text-lg font-bold text-primary">PP</span>
+                    <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-primary">
+                      <img
+                        src="images/Prayag_Patel.jpg"
+                        alt="Prayag Patel"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-foreground">Prayag Patel</h3>
-                      <p className="text-primary font-medium">Secretary</p>
+                      <p className="text-primary font-medium">Secretary [Co-Founder]</p>
+                    </div>
+                  </div>
+
+                  {/* Reporter */}
+                  <div className="flex items-center space-x-4">
+                    <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-primary">
+                      <img
+                        src="images/moulik Jain.jpg"
+                        alt="Moulik Jain"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-foreground">Moulik Jain</h3>
+                      <p className="text-primary font-medium">Reporter</p>
                     </div>
                   </div>
                 </div>
               </CardContent>
             </Card>
-
-            {/* Image Grid */}
-            <div className="grid grid-cols-2 gap-4">
-              <img
-                src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=300&h=200&fit=crop"
-                alt="Community service activity"
-                className="w-full h-32 object-cover rounded-lg"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=300&h=200&fit=crop"
-                alt="Volunteer work"
-                className="w-full h-32 object-cover rounded-lg"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=300&h=200&fit=crop"
-                alt="Team collaboration"
-                className="w-full h-32 object-cover rounded-lg"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=300&h=200&fit=crop"
-                alt="Community impact"
-                className="w-full h-32 object-cover rounded-lg"
-              />
-            </div>
           </div>
         </div>
 

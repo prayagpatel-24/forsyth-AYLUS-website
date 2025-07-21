@@ -5,17 +5,7 @@ import { Users, Mail } from 'lucide-react';
 const Members = () => {
   // Sample member names - replace with actual member data
   const members = [
-    'Aadhya Patel', 'Aarav Shah', 'Abhinav Kumar', 'Aditi Singh', 'Aditya Sharma',
-    'Agastya Reddy', 'Aisha Gupta', 'Akash Verma', 'Alisha Jain', 'Amit Patel',
-    'Ananya Iyer', 'Ankit Agarwal', 'Ansh Mehta', 'Anushka Rao', 'Arjun Nair',
-    'Arya Desai', 'Ashwin Kothari', 'Avni Sharma', 'Ayush Bansal', 'Bhavya Pandey',
-    'Darsh Agarwal', 'Dev Patel', 'Devansh Kumar', 'Dhruv Gupta', 'Diya Joshi',
-    'Eshaan Singh', 'Garv Agarwal', 'Harsh Agarwal', 'Ishaan Patel', 'Isha Sharma',
-    'Jatin Verma', 'Jiya Shah', 'Karan Reddy', 'Kavya Iyer', 'Krish Patel',
-    'Laksh Agarwal', 'Manav Kumar', 'Maya Singh', 'Meera Jain', 'Naina Gupta',
-    'Niharika Rao', 'Nikhil Sharma', 'Nishant Patel', 'Parth Shah', 'Priya Desai',
-    'Prayag Patel', 'Rahul Verma', 'Riya Singh', 'Rohan Agarwal', 'Sakeeth Alla',
-    'Saanvi Joshi', 'Tanvi Sharma', 'Varun Patel', 'Vedant Kumar', 'Yash Gupta'
+'Aaditya Nadagouda', 'Aarnav Ravi', 'Aarush Yeruva', 'Abyudhay Prabhu', 'Aditi Singh', 'Advay', 'Advay Pradeep', 'Akshath Ganji', 'Anish Vanka', 'anvi', 'Arnav Balaji', 'Avik Gupta', 'Caleb Stair', 'Catherin Antony', 'Evelin', 'Guna Ekkaluri', 'Harshit Chandrapati', 'Harshith', 'Hasith Vojjala', 'Ishita Jain', 'Jarissa Valdez', 'Jonathan Eskew', 'Kenneth Low', 'Kirtan Reddy Pingali', 'Likhitha', 'Long Le', 'Mahi Shah', 'Manav Jain', 'Maya Patel', 'Meetu Sharma', 'Moulik Jain', 'Navi Weliwita', 'Neya', 'Nicholas Crane', 'Nicolas Sasaki', 'Om Biradar', 'Parisha Goyal', 'Parth G', 'Parth S.', 'Pavan Malladi', 'Prasanna Manoharan', 'Prayag Patel', 'Reya Chigulapalli', 'Riddhima', 'rithikha', 'Saharsh Enabothula', 'Sahas Etikyala', 'Sal Minniti', 'shanvi hari', 'Shubham Joshi', 'Soumil Ishaank Simha Banala', 'Soumith Kondamadugula', 'Tanush Sharma', 'Tanvi Cholleti', 'Varad Valike', 'Vedanth Chirravuri', 'Vishnu Tadipatri', 'Vyom Mohan'
   ];
 
   return (
@@ -30,7 +20,7 @@ const Members = () => {
           
           <div className="flex justify-center items-center space-x-2 mb-8">
             <Users className="text-primary" size={24} />
-            <span className="text-2xl font-semibold text-primary">{members.length}+ Active Members</span>
+            <span className="text-2xl font-semibold text-primary">{members.length} Active Members</span>
           </div>
         </div>
 
