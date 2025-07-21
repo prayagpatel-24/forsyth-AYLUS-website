@@ -78,9 +78,32 @@ const Home = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    [Mission Statement Placeholder] - We are dedicated to empowering youth through 
-                    community service, fostering leadership skills, and creating positive change 
-                    in Forsyth County and beyond.
+                    The Forsyth County AYLUS Branch, founded in 2024, aims to foster 
+                    community service and support those in need throughout northeast 
+                    Atlanta through youth leadership. The greater Atlanta area, specifically 
+                    Forsyth County, has many motivated students who actively search for 
+                    volunteering opportunities and ways to give back to the community. 
+                    With over 30 schools in the county school district, numerous students 
+                    would gain experience from AYLUS and could contribute to a larger 
+                    goal. Specifically, our team of leaders is very motivated to create 
+                    change by producing a tangible impact – not just in our county – but 
+                    throughout Atlanta. This branch will create unique volunteering 
+                    opportunities, making volunteering much more than just another 
+                    commitment. The plan to recruit members is to use social media 
+                    on multiple platforms to reach out to many students – getting them 
+                    involved in the chapter’s endeavors. Social media will be the 
+                    primary way to communicate with volunteers, and we will regularly 
+                    post activities and opportunities with interactive aspects to 
+                    receive ideas. Our vision is to target major fields one at a time. 
+                    For example, we would set a goal for an environmental goal 
+                    (ex., collecting 500 pounds of trash from local parks), and once 
+                    that is reached, we would move to a healthcare task (ex., putting 
+                    together and constructing 50 first aid dispensers in public areas). 
+                    Many such events will target fundraising creatively, such as 
+                    running events where we donate to a good cause and support the 
+                    chapter financially. We hope to create a visible impact on the 
+                    community around us through youth leadership, and a wonderful 
+                    organization like AYLUS is perfect!
                   </p>
                 </CardContent>
               </Card>
