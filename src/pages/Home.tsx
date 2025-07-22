@@ -75,21 +75,31 @@ const Home = () => {
               {/* Mission Statement */}
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-primary">Our Mission</CardTitle>
+                  <CardTitle className="text-primary text-2xl">Our Mission</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">
-                    The Forsyth County AYLUS Branch, founded in 2024, empowers youth to serve the 
-                    northeast Atlanta community through leadership and meaningful volunteer opportunities. 
-                    With over 30 schools in the county, many motivated students can gain experience 
-                    and help achieve significant local impact. Our leaders are committed to making 
-                    a difference not only in Forsyth County but throughout Atlanta. We will use social 
-                    media to recruit and communicate with members, regularly posting activities and 
-                    encouraging input. Our projects will focus on major community needs one at a time, 
-                    such as environmental cleanups or healthcare initiatives, along with creative 
-                    fundraising events. Through youth-driven service, AYLUS aims to create visible, 
-                    positive change in the community.
-                  </p>
+                  <div className="space-y-4">
+                    <p className="text-lg font-semibold text-foreground">
+                      Empowering youth to lead, serve, and create lasting change in Forsyth County and beyond.
+                    </p>
+                    <ul className="list-disc list-inside text-muted-foreground space-y-2 pl-2">
+                      <li>
+                        <span className="font-medium text-foreground">Youth Leadership:</span> We provide opportunities for students from over 30 schools to develop leadership skills through hands-on service.
+                      </li>
+                      <li>
+                        <span className="font-medium text-foreground">Community Impact:</span> Our projects address major local needs, from environmental cleanups to healthcare and creative fundraising.
+                      </li>
+                      <li>
+                        <span className="font-medium text-foreground">Collaboration:</span> We use social media to recruit, communicate, and encourage member input, ensuring everyone has a voice.
+                      </li>
+                      <li>
+                        <span className="font-medium text-foreground">Visible Change:</span> Every initiative is designed to make a real, positive difference in our community.
+                      </li>
+                    </ul>
+                    <p className="text-md text-muted-foreground">
+                      Join us as we build a stronger, more connected Forsyth County—one project at a time.
+                    </p>
+                  </div>
                 </CardContent>
               </Card>
 

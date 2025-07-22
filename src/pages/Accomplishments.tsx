@@ -21,26 +21,26 @@ const Accomplishments = () => {
     {
       icon: Clock,
       label: "Volunteer Hours",
-      value: "500+",
+      value: "270+",
       description: "Hours of dedicated community service"
     },
     {
       icon: Trash,
       label: "Bags of Trash Cleaned",
-      value: "150+",
+      value: "45+",
       description: "Environmental impact through park cleanups"
     },
     {
       icon: BookOpen,
       label: "Books Donated",
-      value: "500+",
+      value: "15+",
       description: "Educational resources provided to community"
     },
     {
       icon: Target,
       label: "Families Served",
-      value: "200+",
-      description: "Direct community impact through various initiatives"
+      value: "100+",
+      description: "Estimated community impact through various initiatives"
     }
   ];
 
@@ -68,7 +68,7 @@ const Accomplishments = () => {
     },
     {
       title: "Educational Support",
-      description: "Provided technology education to seniors and book donations to students",
+      description: "Donated Books to public libraries to support in their effort to improve student education",
       badge: "Education"
     }
   ];
@@ -116,7 +116,7 @@ const Accomplishments = () => {
           </div>
         </div>
 
-        {/* Impact Statistics */}
+        Impact Statistics
         <div className="mb-16">
           <h2 className="text-2xl font-bold text-foreground mb-8 text-center">Impact by the Numbers</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -168,7 +168,7 @@ const Accomplishments = () => {
           </Card>
         </div>
 
-        {/* Additional Metrics Grid */}
+        {/* Additional Metrics Grid
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <Card>
             <CardHeader>
@@ -217,7 +217,7 @@ const Accomplishments = () => {
               </div>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
 
         {/* Call to Action */}
         <div className="text-center">
