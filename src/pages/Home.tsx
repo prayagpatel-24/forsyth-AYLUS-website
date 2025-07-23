@@ -2,18 +2,10 @@ import { useState } from 'react';
 import { Mail, Instagram, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
 
 const Home = () => {
   const [currentImage, setCurrentImage] = useState(0);
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
   const { toast } = useToast();
 
   // Placeholder images for the carousel
@@ -41,21 +33,12 @@ const Home = () => {
       title: "Message Sent!",
       description: "Thank you for contacting us. We'll get back to you soon.",
     });
-    
-    setFormData({ name: '', email: '', message: '' });
-  };
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-muted flex flex-col">
       {/* Hero Section */}
-      <section className="bg-muted py-16">
+      <section className="py-16 flex-1">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
@@ -151,99 +134,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-foreground mb-12">Contact Us</h2>
-          
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Contact Info */}
-            <div className="space-y-6">
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-primary">Get in Touch</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <Mail className="text-primary" size={20} />
-                    <div>
-                      <p className="font-medium">Chapter Email</p>
-                      <p className="text-muted-foreground">aylusforsythga@gmail.com</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center space-x-3">
-                    <Mail className="text-primary" size={20} />
-                    <div>
-                      <p className="font-medium">President</p>
-                      <p className="text-muted-foreground">parth.shah14@icloud.com</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center space-x-3">
-                    <Instagram className="text-primary" size={20} />
-                    <div>
-                      <p className="font-medium">Instagram</p>
-                      <p className="text-muted-foreground">@forsythaylus</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-
-            {/* Contact Form */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-primary">Send us a Message</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-4">
-                  <div>
-                    <Label htmlFor="name">Name</Label>
-                    <Input
-                      type="text"
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleInputChange}
-                      required
-                    />
-                  </div>
-                  
-                  <div>
-                    <Label htmlFor="email">Email</Label>
-                    <Input
-                      type="email"
-                      id="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleInputChange}
-                      required
-                    />
-                  </div>
-                  
-                  <div>
-                    <Label htmlFor="message">Message</Label>
-                    <Textarea
-                      id="message"
-                      name="message"
-                      value={formData.message}
-                      onChange={handleInputChange}
-                      rows={4}
-                      required
-                    />
-                  </div>
-                  
-                  <Button type="submit" variant="cta" className="w-full">
-                    Send Message
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
