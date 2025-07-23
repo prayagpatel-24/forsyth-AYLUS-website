@@ -22,9 +22,9 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Mail size={16} />
-                <span>aylusforsyth@gmail.com</span>
+                <span>aylusforsythga@gmail.com</span>
               </div>
-              <div>President: parthshahofficial@gmail.com</div>
+              <div>President: parth.shah14@icloud.com</div>
             </div>
           </div>
 
@@ -33,7 +33,7 @@ const Footer = () => {
             <h3 className="font-semibold text-foreground mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               <a
-                href="https://instagram.com/aylusforsyth"
+                href="https://instagram.com/forsythaylus"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200"
@@ -41,7 +41,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/groups/13337057/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200"

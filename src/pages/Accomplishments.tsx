@@ -231,12 +231,16 @@ const Accomplishments = () => {
                 impact in our community by joining AYLUS Forsyth Branch today.
               </p>
               <div className="space-x-4">
-                <Button variant="cta">
-                  Get Involved
-                </Button>
-                <Button variant="outline">
-                  Learn More
-                </Button>
+                <a
+                  href="https://groupme.com/join_group/104631973/KvkpCg9w"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: 'none' }}
+                >
+                  <Button variant="cta">
+                    Get Involved
+                  </Button>
+                </a>
               </div>
             </CardContent>
           </Card>

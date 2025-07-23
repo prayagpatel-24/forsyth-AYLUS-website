@@ -92,9 +92,9 @@ const Donate = () => {
                 <div className="bg-background p-4 rounded-lg border border-border">
                   <h5 className="font-semibold text-foreground mb-2">Contact Information</h5>
                   <div className="text-sm text-muted-foreground space-y-1">
-                    <p>Email: aylusforsyth@gmail.com</p>
-                    <p>President: parthshahofficial@gmail.com</p>
-                    <p>Follow us: @aylusforsyth</p>
+                    <p>Email: aylusforsythga@gmail.com</p>
+                    <p>President: parth.shah14@icloud.com</p>
+                    <p>Follow us: @forsythaylus</p>
                   </div>
                 </div>
               </div>

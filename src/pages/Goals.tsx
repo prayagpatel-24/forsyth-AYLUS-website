@@ -195,12 +195,16 @@ const Goals = () => {
                 achieve these ambitious goals and create lasting positive change in our community.
               </p>
               <div className="space-x-4">
-                <Button variant="cta">
-                  Volunteer With Us
-                </Button>
-                <Button variant="outline">
-                  Contact Us
-                </Button>
+                <a
+                  href="https://groupme.com/join_group/104631973/KvkpCg9w"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: 'none' }}
+                >
+                  <Button variant="cta">
+                    Volunteer With Us
+                  </Button>
+                </a>
               </div>
             </CardContent>
           </Card>

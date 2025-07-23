@@ -263,7 +263,7 @@ const Events = () => {
               </p>
               <div className="space-x-4">
                 <Badge variant="secondary" className="text-sm">
-                  Contact: aylusforsyth@gmail.com
+                  Contact: aylusforsythga@gmail.com
                 </Badge>
               </div>
             </CardContent>

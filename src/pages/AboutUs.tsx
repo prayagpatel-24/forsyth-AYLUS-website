@@ -145,7 +145,7 @@ const AboutUs = () => {
                   <Mail className="text-primary" size={24} />
                   <div>
                     <p className="font-medium">Chapter Email</p>
-                    <p className="text-muted-foreground">aylusforsyth@gmail.com</p>
+                    <p className="text-muted-foreground">aylusforsythga@gmail.com</p>
                   </div>
                 </div>
                 
@@ -153,7 +153,7 @@ const AboutUs = () => {
                   <Mail className="text-primary" size={24} />
                   <div>
                     <p className="font-medium">President</p>
-                    <p className="text-muted-foreground">parthshahofficial@gmail.com</p>
+                    <p className="text-muted-foreground">parth.shah14@icloud.com</p>
                   </div>
                 </div>
 
@@ -161,7 +161,7 @@ const AboutUs = () => {
                   <Instagram className="text-primary" size={24} />
                   <div>
                     <p className="font-medium">Instagram</p>
-                    <p className="text-muted-foreground">@aylusforsyth</p>
+                    <p className="text-muted-foreground">@forsythaylus</p>
                   </div>
                 </div>
               </div>
