@@ -12,6 +12,7 @@ import Events from "./pages/Events";
 import Accomplishments from "./pages/Accomplishments";
 import Goals from "./pages/Goals";
 import NotFound from "./pages/NotFound";
+import Donate from "./pages/Donate";
 
 const queryClient = new QueryClient();
 
@@ -31,6 +32,7 @@ const App = () => (
               <Route path="/events" element={<Events />} />
               <Route path="/accomplishments" element={<Accomplishments />} />
               <Route path="/goals" element={<Goals />} />
+              <Route path="/donate" element={<Donate />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

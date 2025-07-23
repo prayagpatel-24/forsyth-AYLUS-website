@@ -73,15 +73,6 @@ const Members = () => {
                   </div>
                 </div>
               </div>
-              
-              <div className="pt-4">
-                <Button variant="cta" size="lg" className="mr-4">
-                  Contact Us to Join
-                </Button>
-                <Button variant="outline" size="lg">
-                  Learn More
-                </Button>
-              </div>
             </CardContent>
           </Card>
         </div>

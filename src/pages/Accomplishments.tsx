@@ -33,7 +33,7 @@ const Accomplishments = () => {
     {
       icon: BookOpen,
       label: "Books Donated",
-      value: "15+",
+      value: "30+",
       description: "Educational resources provided to community"
     },
     {

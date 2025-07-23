@@ -67,9 +67,16 @@ const Home = () => {
                 <p className="text-xl text-muted-foreground mb-8">
                   Building stronger communities through youth-led service initiatives since 2024.
                 </p>
-                <Button variant="cta" size="lg">
-                  Join Our Mission
-                </Button>
+                <a
+                  href="https://groupme.com/join_group/104631973/KvkpCg9w"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: 'none' }}
+                >
+                  <Button variant="cta" size="lg">
+                    Join Our Mission
+                  </Button>
+                </a>
               </div>
 
               {/* Mission Statement */}

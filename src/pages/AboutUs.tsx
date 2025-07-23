@@ -51,9 +51,9 @@ const AboutUs = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  [National AYLUS Values Placeholder] - Values content will be added later. 
-                  This section will highlight the core principles that guide all AYLUS chapters 
-                  nationwide in their community service efforts.
+                  AYLUS promotes the development of its members LEADERSHIP, INTEGRITY, 
+                  and INNOVATION, through the planning and execution of volunteer projects 
+                  that aim at benefiting our communities.
                 </p>
               </CardContent>
             </Card>
@@ -167,9 +167,16 @@ const AboutUs = () => {
               </div>
               
               <div className="text-center mt-6">
-                <Button variant="cta">
-                  Get Involved
-                </Button>
+                <a
+                  href="https://groupme.com/join_group/104631973/KvkpCg9w"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: 'none' }}
+                >
+                  <Button variant="cta">
+                    Get Involved
+                  </Button>
+                </a>
               </div>
             </CardContent>
           </Card>
