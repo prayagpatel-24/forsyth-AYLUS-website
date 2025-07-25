@@ -5,8 +5,13 @@ import { Users, Mail } from 'lucide-react';
 const Members = () => {
   // Sample member names - replace with actual member data
   const members = [
-'Aaditya Nadagouda', 'Aarnav Ravi', 'Aarush Yeruva', 'Abyudhay Prabhu', 'Aditi Singh', 'Advay', 'Advay Pradeep', 'Akshath Ganji', 'Anish Vanka', 'anvi', 'Arnav Balaji', 'Avik Gupta', 'Caleb Stair', 'Catherin Antony', 'Evelin', 'Guna Ekkaluri', 'Harshit Chandrapati', 'Harshith', 'Hasith Vojjala', 'Ishita Jain', 'Jarissa Valdez', 'Jonathan Eskew', 'Kenneth Low', 'Kirtan Reddy Pingali', 'Likhitha', 'Long Le', 'Mahi Shah', 'Manav Jain', 'Maya Patel', 'Meetu Sharma', 'Moulik Jain', 'Navi Weliwita', 'Neya', 'Nicholas Crane', 'Nicolas Sasaki', 'Om Biradar', 'Parisha Goyal', 'Parth G', 'Parth S.', 'Pavan Malladi', 'Prasanna Manoharan', 'Prayag Patel', 'Reya Chigulapalli', 'Riddhima', 'rithikha', 'Saharsh Enabothula', 'Sahas Etikyala', 'Sal Minniti', 'shanvi hari', 'Shubham Joshi', 'Soumil Ishaank Simha Banala', 'Soumith Kondamadugula', 'Tanush Sharma', 'Tanvi Cholleti', 'Varad Valike', 'Vedanth Chirravuri', 'Vishnu Tadipatri', 'Vyom Mohan'
-  ];
+    'Aaditya Nadagouda', 'Aarnav Ravi', 'Aarush Yeruva', 'Abyudhay Prabhu', 'Aditi Singh', 'Advay', 'Advay Pradeep', 'Akshath Ganji', 'Anish Vanka', 'anvi', 'Arnav Balaji', 'Avik Gupta', 'Caleb Stair', 'Catherin Antony', 'Evelin', 'Guna Ekkaluri', 'Harshit Chandrapati', 'Harshith', 'Hasith Vojjala', 'Ishita Jain', 'Jarissa Valdez', 'Jonathan Eskew', 'Kenneth Low', 'Kirtan Reddy Pingali', 'Likhitha', 'Long Le', 'Mahi Shah', 'Manav Jain', 'Maya Patel', 'Meetu Sharma', 'Moulik Jain', 'Navi Weliwita', 'Neya', 'Nicholas Crane', 'Nicolas Sasaki', 'Om Biradar', 'Parisha Goyal', 'Parth G', 'Parth S.', 'Pavan Malladi', 'Prasanna Manoharan', 'Prayag Patel', 'Reya Chigulapalli', 'Riddhima', 'rithikha', 'Saharsh Enabothula', 'Sahas Etikyala', 'Sal Minniti', 'shanvi hari', 'Shubham Joshi', 'Soumil Ishaank Simha Banala', 'Soumith Kondamadugula', 'Tanush Sharma', 'Tanvi Cholleti', 'Varad Valike', 'Vedanth Chirravuri', 'Vishnu Tadipatri', 'Vyom Mohan'
+  ].map(name =>
+    name
+      .split(' ')
+      .map(part => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
+      .join(' ')
+  );
 
   return (
     <div className="min-h-screen py-16">
