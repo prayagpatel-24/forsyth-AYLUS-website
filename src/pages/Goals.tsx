@@ -9,14 +9,14 @@ const Goals = () => {
       title: "FieldDay Initiative",
       description: "A comprehensive community engagement program designed to bring sports and recreation to underserved areas",
       details: [
-        "Distribute paper bags filled with sporting equipment across Forsyth County parks and large fields",
+        "Distribute boxes filled with sporting equipment across Forsyth County parks and large fields",
         "Host organized events with tents, water stations, and supervised recreational activities",
         "Provide access to soccer balls, jump ropes, frisbees, and other sporting materials for children without access",
         "Create community bonding experiences to alleviate increasing mental stress levels",
         "Partner with local sporting goods businesses for sponsorships and equipment donations"
       ],
       impact: "Serving 500+ children and families annually",
-      timeline: "Launch planned for Spring 2025"
+      timeline: "Launch planned for Fall 2025"
     }
   ];
 
