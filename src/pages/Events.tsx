@@ -35,7 +35,7 @@ const Events = () => {
     location: "McFarland Pkwy, Post Rd, Peachtree Pkwy",
     summary: "28 members partnered with BioCure and Keep Forsyth County Beautiful to clean up McFarland Parkway, Post Road, and Peachtree Parkway, restoring cleanliness to three major roads.",
     images: [
-      "./images/major-road-1.jpg?w=400&h=250&fit=crop"
+      "./images/Major-road-1.jpg?w=400&h=250&fit=crop"
     ],
     type: "Roadside Cleanup"
   },
@@ -57,7 +57,7 @@ const Events = () => {
     location: "Sharon Forks Public Library",
     summary: "Six members donated and packed books for the public library, bringing a medium-sized box and supplies to assist in packing and donating books to the community.",
     images: [
-      "./images/forsyth-library-cover.jpg?w=400&h=250&fit=crop"
+      "./images/Forsyth-library-cover.jpg?w=400&h=250&fit=crop"
     ],
     type: "Education Support"
   },
