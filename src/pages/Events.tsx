@@ -12,7 +12,7 @@ const Events = () => {
     location: "Fowler Park, Forsyth County",
     summary: "Six members organized a cleanup event at Fowler Park, collecting two full bags of trash from the playground, skatepark, basketball courts, and surrounding areas.",
     images: [
-      "images/forsyth-park-3.png?w=400&h=250&fit=crop"
+      "./images/forsyth-park-3.png?w=400&h=250&fit=crop"
     ],
     type: "Park Cleanup",
     featured: true
@@ -24,7 +24,7 @@ const Events = () => {
     location: "429 Canton Rd, Cumming, GA 30040",
     summary: "Eight members volunteered at The SHOP at CHM thrift store, organizing items and performing tasks as directed by staff to support the local community.",
     images: [
-      "images/CHM-1.png?w=400&h=250&fit=crop"
+      "./images/CHM-1.png?w=400&h=250&fit=crop"
     ],
     type: "Community Support"
   },
@@ -35,7 +35,7 @@ const Events = () => {
     location: "McFarland Pkwy, Post Rd, Peachtree Pkwy",
     summary: "28 members partnered with BioCure and Keep Forsyth County Beautiful to clean up McFarland Parkway, Post Road, and Peachtree Parkway, restoring cleanliness to three major roads.",
     images: [
-      "images/major-road-1.jpg?w=400&h=250&fit=crop"
+      "./images/major-road-1.jpg?w=400&h=250&fit=crop"
     ],
     type: "Roadside Cleanup"
   },
@@ -46,7 +46,7 @@ const Events = () => {
     location: "Bethelview Road, Forsyth County",
     summary: "26 members partnered with BioCure and Keep Forsyth County Beautiful for a large-scale roadside cleanup, targeting both sides of Bethelview Road from 9:30 AM to 12:30 PM.",
     images: [
-      "images/road-1.jpg?w=400&h=250&fit=crop"
+      "./images/road-1.jpg?w=400&h=250&fit=crop"
     ],
     type: "Roadside Cleanup"
   },
@@ -57,7 +57,7 @@ const Events = () => {
     location: "Sharon Forks Public Library",
     summary: "Six members donated and packed books for the public library, bringing a medium-sized box and supplies to assist in packing and donating books to the community.",
     images: [
-      "images/forsyth-library-cover.jpg?w=400&h=250&fit=crop"
+      "./images/forsyth-library-cover.jpg?w=400&h=250&fit=crop"
     ],
     type: "Education Support"
   },
@@ -68,7 +68,7 @@ const Events = () => {
     location: "Read it Again Bookstore",
     summary: "Forsyth County AYLUS members set up a table for formal clothes donations, collecting over 3 boxes of business professional/casual clothes for those in need.",
     images: [
-      "images/donation-drive-1.jpg?w=400&h=250&fit=crop"
+      "./images/donation-drive-1.jpg?w=400&h=250&fit=crop"
     ],
     type: "Community Support"
   },
@@ -79,7 +79,7 @@ const Events = () => {
     location: "Caney Creek Preserve, Forsyth County",
     summary: "On April 27th, 2025, 4 members performed weed-picking and trash cleaning at Caney Creek Preserve, collecting a large bag of weeds and trash to help maintain the park.",
     images: [
-      "images/caney-1.jpg?w=400&h=250&fit=crop"
+      "./images/caney-1.jpg?w=400&h=250&fit=crop"
     ],
     type: "Park Cleanup"
   },
@@ -90,7 +90,7 @@ const Events = () => {
     location: "Fowler Park, Forsyth County",
     summary: "On May 25th, 2025, 10 Forsyth County AYLUS members cleaned up Fowler Park, collecting 2 large bags of trash. The park is extremely popular, and removing sharp objects and trash helps keep the public safe.",
     images: [
-      "images/fowler-park-1.jpg?w=400&h=250&fit=crop"
+      "./images/fowler-park-1.jpg?w=400&h=250&fit=crop"
     ],
     type: "Park Cleanup"
   },
@@ -101,7 +101,7 @@ const Events = () => {
     location: "Sharon Springs Park, Forsyth County",
     summary: "On June 22th, 2025, 3 Forsyth County AYLUS members cleaned up Sharon Springs Park, collecting 2 large bags of trash. Many sports-related objects and plastics were removed to help keep the park safe and clean.",
     images: [
-      "images/sharon-spring.png?w=400&h=250&fit=crop"
+      "./images/sharon-spring.png?w=400&h=250&fit=crop"
     ],
     type: "Park Cleanup",
   }

@@ -72,7 +72,7 @@ const AboutUs = () => {
                   <div className="flex items-center space-x-4">
                     <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-primary">
                       <img
-                        src="images/Parth_shah.jpg"
+                        src="./images/Parth_shah.jpg"
                         alt="Parth Shah"
                         className="w-full h-full object-cover"
                       />
@@ -87,7 +87,7 @@ const AboutUs = () => {
                   <div className="flex items-center space-x-4">
                     <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-primary">
                       <img
-                        src="images/Rama Alla.jpg"
+                        src="./images/Rama Alla.jpg"
                         alt="Sakeeth Alla"
                         className="w-full h-full object-cover"
                       />
@@ -102,7 +102,7 @@ const AboutUs = () => {
                   <div className="flex items-center space-x-4">
                     <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-primary">
                       <img
-                        src="images/Prayag_Patel.jpg"
+                        src="./images/Prayag_Patel.jpg"
                         alt="Prayag Patel"
                         className="w-full h-full object-cover"
                       />
@@ -117,7 +117,7 @@ const AboutUs = () => {
                   <div className="flex items-center space-x-4">
                     <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-primary">
                       <img
-                        src="images/moulik Jain.jpg"
+                        src="./images/moulik Jain.jpg"
                         alt="Moulik Jain"
                         className="w-full h-full object-cover"
                       />
