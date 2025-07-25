@@ -45,15 +45,17 @@ const Donate = () => {
               <div className="text-center space-y-4">
                 <h4 className="text-lg font-semibold text-foreground">Donate via PayPal</h4>
                 {!showPayPalForm ? (
-                  <Button 
-                    variant="cta" 
-                    size="lg"
-                    onClick={() => setShowPayPalForm(true)}
-                    className="flex items-center space-x-2"
-                  >
-                    <CreditCard size={20} />
-                    <span>Donate Now with PayPal</span>
-                  </Button>
+                  <div className="flex justify-center">
+                    <Button 
+                      variant="cta" 
+                      size="lg"
+                      onClick={() => setShowPayPalForm(true)}
+                      className="flex items-center space-x-2"
+                    >
+                      <CreditCard size={20} />
+                      <span>Donate Now with PayPal</span>
+                    </Button>
+                  </div>
                 ) : (
                   <div className="bg-background p-6 rounded-lg border border-border">
                     <p className="text-muted-foreground mb-4">
