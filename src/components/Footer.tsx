@@ -54,6 +54,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
           <p>&copy; 2024 AYLUS Forsyth Branch. All rights reserved.</p>
+          <p className="mt-2 text-xs">Website created by Prayag Patel</p>
         </div>
       </div>
     </footer>
