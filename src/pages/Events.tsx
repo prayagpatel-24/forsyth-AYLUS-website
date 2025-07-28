@@ -104,6 +104,17 @@ const Events = () => {
       "./images/sharon-spring.png?w=400&h=250&fit=crop"
     ],
     type: "Park Cleanup",
+  },
+  {
+    id: 10,
+    name: "Cancer Patients Card Making Event",
+    date: "July 27, 2025",
+    location: "Fowler Park, Forsyth County",
+    summary: "On July 27th, 2025, 7 Forsyth County AYLUS members created Cards for multiple patients suffering from cancer.",
+    images: [
+      "./images/Card_Event_1.jpg?w=400&h=250&fit=crop"
+    ],
+    type: "Card Making",
   }
 ];
 
@@ -113,7 +124,8 @@ const Events = () => {
       "Community Support": "bg-blue-100 text-blue-800",
       "Education Support": "bg-purple-100 text-purple-800",
       "Recreation": "bg-orange-100 text-orange-800",
-      "Environmental": "bg-emerald-100 text-emerald-800"
+      "Environmental": "bg-emerald-100 text-emerald-800",
+      "Card Making": "bg-blue-100 text-blue-800"
     };
     return colors[type as keyof typeof colors] || "bg-gray-100 text-gray-800";
   };
