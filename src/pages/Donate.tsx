@@ -45,7 +45,7 @@ const Donate = () => {
               <div className="text-center space-y-4">
                 <h4 className="text-lg font-semibold text-foreground">Donate via PayPal</h4>
                 {!showPayPalForm ? (
-                  <div className="flex justify-center">
+                  <div className="flex flex-col items-center space-y-4">
                     <Button 
                       variant="cta" 
                       size="lg"
@@ -55,6 +55,23 @@ const Donate = () => {
                       <CreditCard size={20} />
                       <span>Donate Now with PayPal</span>
                     </Button>
+                    <div className="flex justify-center">
+                      <a
+                        href="https://gofund.me/ed286944"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className=""
+                      >
+                        <Button 
+                          variant="cta" 
+                          size="lg"
+                          className="flex items-center space-x-2"
+                        >
+                          <CreditCard size={20} />
+                          <span>Donate through GoFundMe</span>
+                        </Button>
+                      </a>
+                    </div>
                   </div>
                 ) : (
                   <div className="bg-background p-6 rounded-lg border border-border">
