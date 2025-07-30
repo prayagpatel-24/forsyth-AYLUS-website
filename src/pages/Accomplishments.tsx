@@ -1,7 +1,9 @@
+
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Trophy, Users, Calendar, Newspaper, Target, Clock, Trash, BookOpen } from 'lucide-react';
+import events from '../data/events';
 
 const Accomplishments = () => {
   // Statistics data - easily updateable
@@ -15,7 +17,7 @@ const Accomplishments = () => {
     {
       icon: Calendar,
       label: "Successful Events",
-      value: "9",
+      value: events.length.toString(),
       description: "Community service initiatives completed"
     },
     {

@@ -81,7 +81,7 @@ const Donate = () => {
                     </p>
                     <div className="space-y-2">
                       <p className="text-sm text-foreground">Contact for donation setup:</p>
-                      <p className="text-sm text-muted-foreground">aylusforsyth@gmail.com</p>
+                      <p className="text-sm text-muted-foreground">aylusforsythga@gmail.com</p>
                     </div>
                     <Button 
                       variant="outline" 
