@@ -117,7 +117,7 @@ const AboutUs = () => {
                   <div className="flex items-center space-x-4">
                     <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-primary">
                       <img
-                        src="./images/Moulik_Jain.jpg"
+                        src="./images/Moulik_Jain.JPG"
                         alt="Moulik Jain"
                         className="w-full h-full object-cover"
                       />

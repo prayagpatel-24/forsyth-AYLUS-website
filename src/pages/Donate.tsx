@@ -94,7 +94,7 @@ const Donate = () => {
                 )}
                 <p className="text-sm text-muted-foreground">
                   For questions about donations or to request our IRS Determination letter, 
-                  please contact us at aylusforsyth@gmail.com
+                  please contact us at aylusforsythga@gmail.com
                 </p>
               </div>
               {/* Alternative Donation Methods */}
