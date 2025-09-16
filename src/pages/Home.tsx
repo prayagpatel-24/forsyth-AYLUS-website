@@ -14,7 +14,8 @@ const Home = () => {
     './images/Forsyth-book-1.jpg?w=600&h=400&fit=crop',
     './images/forsyth-park-1.png?w=600&h=400&fit=crop',
     './images/forsyth-thrift-1.png?w=600&h=400&fit=crop',
-    "./images/Card_Event_1.jpg?w=600&h=400&fit=crop"
+    "./images/Card_Event_1.jpg?w=600&h=400&fit=crop",
+    "./images/service-project-2.JPG?w=600&h=400&fit=crop"
   ];
 
   const nextImage = () => {
@@ -73,7 +74,7 @@ const Home = () => {
                     <p className="text-lg font-semibold text-foreground">
                       Empowering youth to lead, serve, and create lasting change in Forsyth County and beyond.
                     </p>
-                    <ul className="list-disc list-inside text-muted-foreground space-y-2 pl-2">
+                    <ul className="list-disc list-inside text-black space-y-2 pl-2">
                       <li>
                         <span className="font-medium text-foreground">Youth Leadership:</span> We provide opportunities for students from over 30 schools to develop leadership skills through hands-on service.
                       </li>

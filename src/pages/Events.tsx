@@ -115,6 +115,17 @@ const Events = () => {
       "./images/Card_Event_1.jpg?w=400&h=250&fit=crop"
     ],
     type: "Card Making",
+  },
+  {
+    id: 11,
+    name: "Forsyth Service Project",
+    date: "September 14, 2025",
+    location: "Fowler Park, Forsyth County",
+    summary: "On September 14, 2025, 8 Forsyth County AYLUS members brainstormed community service project ideas that will get implemented by the Forsyth Branch.",
+    images: [
+      "./images/service-project-1.jpg?w=400&h=250&fit=crop"
+    ],
+    type: "Card Making",
   }
 ];
 
