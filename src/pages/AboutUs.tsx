@@ -93,7 +93,7 @@ const AboutUs = () => {
                       />
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-foreground">Sakeeth Alla</h3>
+                      <h3 className="text-lg font-semibold text-foreground">Saaketh Alla</h3>
                       <p className="text-primary font-medium">Vice President [Co-Founder]</p>
                     </div>
                   </div>
