@@ -113,6 +113,21 @@ const AboutUs = () => {
                     </div>
                   </div>
 
+                  {/* Desana Outreach */}
+                  <div className="flex items-center space-x-4">
+                    <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-primary">
+                      <img
+                        src="./images/Maya.JPEG"
+                        alt="Maya Patel"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-foreground">Maya Patel</h3>
+                      <p className="text-primary font-medium">Desana Outreach</p>
+                    </div>
+                  </div>
+
                   {/* Reporter */}
                   <div className="flex items-center space-x-4">
                     <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-primary">

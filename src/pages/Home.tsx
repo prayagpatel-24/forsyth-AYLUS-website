@@ -29,9 +29,6 @@ const Home = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // Here you would integrate with EmailJS or your preferred email service
-    // For now, we'll show a success message
     toast({
       title: "Message Sent!",
       description: "Thank you for contacting us. We'll get back to you soon.",
