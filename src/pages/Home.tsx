@@ -10,13 +10,13 @@ const Home = () => {
 
   // Placeholder images for the carousel
   const carouselImages = [
-    "./images/fowler-park-3.jpg?w=600&h=400&fit=crop",
     './images/forsyth-park-2.jpg?w=600&h=400&fit=crop',
     './images/Forsyth-book-1.jpg?w=600&h=400&fit=crop',
     './images/forsyth-park-1.png?w=600&h=400&fit=crop',
     './images/forsyth-thrift-1.png?w=600&h=400&fit=crop',
     "./images/Card_Event_1.jpg?w=600&h=400&fit=crop",
-    "./images/service-project-2.JPG?w=600&h=400&fit=crop"
+    "./images/service-project-2.JPG?w=600&h=400&fit=crop",
+    "./images/fowler-park-3.jpg?w=600&h=400&fit=crop"
   ];
 
   const nextImage = () => {
