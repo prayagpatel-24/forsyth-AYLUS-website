@@ -110,6 +110,28 @@ const events = [
       "./images/Card_Event_1.jpg?w=400&h=250&fit=crop"
     ],
     type: "Card Making",
+  },
+  {
+    id: 11,
+    name: "Forsyth Service Project",
+    date: "September 14, 2025",
+    location: "Fowler Park, Forsyth County",
+    summary: "On September 14, 2025, 8 Forsyth County AYLUS members brainstormed community service project ideas that will get implemented by the Forsyth Branch.",
+    images: [
+      "./images/service-project-1.jpg?w=400&h=250&fit=crop"
+    ],
+    type: "Card Making",
+  },
+  {
+    id: 12,
+    name: "Fowler Park Cleanup",
+    date: "November 16, 2025",
+    location: "Fowler Park, Forsyth County",
+    summary: "On November 16, 2025, 7 Forsyth County AYLUS members cleaned up Fowler Park, collecting 2 large bags of trash. They removed trash from the playground, skatepark, and soccer fields to help keep the park safe and clean.",
+    images: [
+      "./images/fowler-park-4.JPG?w=400&h=250&fit=crop"
+    ],
+    type: "Park Cleanup",
   }
 ];
 
