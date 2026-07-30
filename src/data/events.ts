@@ -132,7 +132,62 @@ const events = [
       "./images/fowler-park-4.JPG?w=400&h=250&fit=crop"
     ],
     type: "Park Cleanup",
-  }
+  },
+  {
+    id: 13,
+    name: "DeSana Middle School Tutoring",
+    date: "February 2026",
+    location: "DeSana Middle School, Alpharetta, GA",
+    summary: "Forsyth County AYLUS members tutored middle school students at DeSana Middle School, helping with schoolwork and reinforcing academic concepts in subjects such as math, science, ELA, and Georgia Studies.",
+    images: [
+      "./images/desana-tutoring-13.jpg?w=400&h=250&fit=crop"
+    ],
+    type: "Education Support",
+  },
+  {
+    id: 14,
+    name: "DeSana Middle School Tutoring",
+    date: "March 2026",
+    location: "DeSana Middle School, Alpharetta, GA",
+    summary: "Forsyth County AYLUS members continued their tutoring program at DeSana Middle School, supporting students after school and helping them build confidence across core subjects.",
+    images: [
+      "./images/desana-tutoring-14.jpg"
+    ],
+    type: "Education Support",
+  },
+  {
+    id: 15,
+    name: "DeSana Middle School Tutoring",
+    date: "March 16, 2026",
+    location: "DeSana Middle School, Alpharetta, GA",
+    summary: "On March 16, 2026, 4 Forsyth County AYLUS members tutored DeSana Middle School students in math, science, ELA, and Georgia Studies during an after-school session.",
+    images: [
+      "./images/desana-tutoring-15.jpg"
+    ],
+    type: "Education Support",
+  },
+  {
+    id: 16,
+    name: "Central Park Cleanup",
+    date: "April 2026",
+    location: "Central Park, Forsyth County",
+    summary: "Forsyth County AYLUS members cleaned up Central Park, removing litter and helping maintain a safer, cleaner public space for the community.",
+    images: [
+      "./images/central-park-16.jpg"
+    ],
+    type: "Park Cleanup",
+  },
+  {
+    id: 17,
+    name: "Fowler Park Cleanup",
+    date: "June 2026",
+    location: "Fowler Park, Forsyth County",
+    summary: "Forsyth County AYLUS members returned to Fowler Park for another cleanup, removing trash around popular park areas to help keep shared spaces safe and clean.",
+    images: [
+      "./images/fowler-park-17.jpg"
+    ],
+    type: "Park Cleanup",
+  },
 ];
 
 export default events;
