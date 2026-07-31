@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  Users, 
-  Sparkles, 
-  ArrowRight, 
-  ChevronLeft, 
-  ChevronRight, 
-  CheckCircle2, 
-  HeartHandshake, 
+import {
+  Users,
+  Sparkles,
+  ArrowRight,
+  ChevronLeft,
+  ChevronRight,
+  CheckCircle2,
+  HeartHandshake,
   Newspaper,
   BookOpen
 } from 'lucide-react';
@@ -20,8 +20,16 @@ const Home = () => {
 
   const carouselImages = [
     {
+      url: './images/image-carosel-2.jpeg?w=600&h=400&fit=crop',
+      caption: 'Youth Volunteer Environmental Service'
+    },
+    {
       url: './images/forsyth-park-2.jpg?w=600&h=400&fit=crop',
       caption: 'Park Cleanups & Community Restorations'
+    },
+    {
+      url: './images/image-carosel-1.jpeg?w=600&h=400&fit=crop',
+      caption: 'Environmental Park & Trail Cleanups'
     },
     {
       url: './images/Forsyth-book-1.jpg?w=600&h=400&fit=crop',
@@ -171,9 +179,8 @@ const Home = () => {
                     <button
                       key={index}
                       onClick={() => setCurrentImage(index)}
-                      className={`h-2 rounded-full transition-all duration-300 ${
-                        index === currentImage ? 'w-6 bg-white' : 'w-2 bg-white/50'
-                      }`}
+                      className={`h-2 rounded-full transition-all duration-300 ${index === currentImage ? 'w-6 bg-white' : 'w-2 bg-white/50'
+                        }`}
                       aria-label={`Go to slide ${index + 1}`}
                     />
                   ))}
@@ -231,7 +238,7 @@ const Home = () => {
                 Our Fowler Park Cleanup project was recognized by NewsBreak, highlighting how youth volunteers in Forsyth County actively restore public spaces and foster environmental safety.
               </p>
               <Button variant="outline" size="sm" asChild className="border-primary/40 text-primary hover:bg-primary hover:text-white">
-                <a 
+                <a
                   href="https://www.newsbreak.com/news/3725888862399-forsyth-county-aylus-members-clean-up-fowler-park-1-in-december-2024"
                   target="_blank"
                   rel="noopener noreferrer"
