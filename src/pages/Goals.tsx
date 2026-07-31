@@ -6,17 +6,29 @@ import { Target, Heart, Users, FileText } from 'lucide-react';
 const Goals = () => {
   const futureGoals = [
     {
-      title: "FieldDay Initiative",
-      description: "A comprehensive community engagement program designed to bring sports and recreation to underserved areas",
+      title: "Youth Tutoring & Mentorship",
+      description: "A growing academic outreach program partnering with local schools to empower middle school students in core subjects",
       details: [
-        "Distribute boxes filled with sporting equipment across Forsyth County parks and large fields",
-        "Host organized events with tents, water stations, and supervised recreational activities",
-        "Provide access to soccer balls, jump ropes, frisbees, and other sporting materials for children without access",
-        "Create community bonding experiences to alleviate increasing mental stress levels",
-        "Partner with local sporting goods businesses for sponsorships and equipment donations"
+        "Provide free after-school tutoring in Mathematics, Science, ELA, and Georgia Studies",
+        "Help students build confidence and academic foundation for high school preparation",
+        "Expand tutoring sessions across additional middle schools in Forsyth County",
+        "Recruit qualified high school volunteers committed to educational excellence",
+        "Develop structured learning materials and study guides for students"
       ],
-      impact: "Serving 500+ children and families annually",
-      timeline: "Launch planned for Fall 2025"
+      impact: "Serving 100+ middle school students annually",
+      timeline: "Active & Expanding 2025-2026"
+    },
+    {
+      title: "Environmental Stewardship",
+      description: "Continuous park and roadside cleanup initiatives to preserve green spaces and public safety",
+      details: [
+        "Organize regular volunteer cleanups at Fowler Park, Sharon Springs Park, and Caney Creek Preserve",
+        "Partner with BioCure and Keep Forsyth County Beautiful for roadside restorations",
+        "Remove plastic litter, hazards, and debris to safeguard local wildlife and park visitors",
+        "Engage youth volunteers in active environmental conservation"
+      ],
+      impact: "Targeting 100+ bags of trash collected and 5+ parks restored",
+      timeline: "Ongoing Monthly Initiative"
     }
   ];
 
@@ -41,9 +53,9 @@ const Goals = () => {
     },
     {
       icon: Target,
-      title: "FieldDay Program",
-      description: "Sporting equipment, event setup, and program materials for our signature initiative",
-      examples: ["Sports equipment", "Event tents", "Safety supplies"]
+      title: "Youth Tutoring & Materials",
+      description: "Academic workbooks, stationery, and program materials for student support",
+      examples: ["Study workbooks", "Learning materials", "Recognition awards"]
     }
   ];
 
@@ -63,44 +75,46 @@ const Goals = () => {
           </div>
         </div>
 
-        {/* Featured Initiative - FieldDay */}
+        {/* Featured Initiatives */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold text-foreground mb-8 text-center">Signature Initiative: FieldDay</h2>
-          {futureGoals.map((goal, index) => (
-            <Card key={index} className="border-primary border-2 bg-muted/50">
-              <CardHeader>
-                <div className="flex items-center justify-between">
-                  <CardTitle className="text-2xl text-primary">{goal.title}</CardTitle>
-                  <Badge variant="secondary">{goal.timeline}</Badge>
-                </div>
-                <p className="text-lg text-muted-foreground">{goal.description}</p>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                <div>
-                  <h4 className="text-lg font-semibold text-foreground mb-3">Program Components</h4>
-                  <ul className="space-y-2">
-                    {goal.details.map((detail, idx) => (
-                      <li key={idx} className="flex items-start space-x-2">
-                        <span className="text-primary mt-1">•</span>
-                        <span className="text-muted-foreground">{detail}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="bg-background p-4 rounded-lg">
-                    <h5 className="font-semibold text-foreground mb-2">Expected Impact</h5>
-                    <p className="text-muted-foreground">{goal.impact}</p>
+          <h2 className="text-2xl font-bold text-foreground mb-8 text-center">Featured Strategic Initiatives</h2>
+          <div className="space-y-8">
+            {futureGoals.map((goal, index) => (
+              <Card key={index} className="border-primary border-2 bg-muted/50">
+                <CardHeader>
+                  <div className="flex items-center justify-between">
+                    <CardTitle className="text-2xl text-primary">{goal.title}</CardTitle>
+                    <Badge variant="secondary">{goal.timeline}</Badge>
                   </div>
-                  <div className="bg-background p-4 rounded-lg">
-                    <h5 className="font-semibold text-foreground mb-2">Timeline</h5>
-                    <p className="text-muted-foreground">{goal.timeline}</p>
+                  <p className="text-lg text-muted-foreground">{goal.description}</p>
+                </CardHeader>
+                <CardContent className="space-y-6">
+                  <div>
+                    <h4 className="text-lg font-semibold text-foreground mb-3">Program Components</h4>
+                    <ul className="space-y-2">
+                      {goal.details.map((detail, idx) => (
+                        <li key={idx} className="flex items-start space-x-2">
+                          <span className="text-primary mt-1">•</span>
+                          <span className="text-muted-foreground">{detail}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="bg-background p-4 rounded-lg">
+                      <h5 className="font-semibold text-foreground mb-2">Expected Impact</h5>
+                      <p className="text-muted-foreground">{goal.impact}</p>
+                    </div>
+                    <div className="bg-background p-4 rounded-lg">
+                      <h5 className="font-semibold text-foreground mb-2">Timeline</h5>
+                      <p className="text-muted-foreground">{goal.timeline}</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
 
         {/* Mission Expansion */}
@@ -127,10 +141,10 @@ const Goals = () => {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• Launch FieldDay initiative</li>
-                  <li>• Develop youth leadership program</li>
-                  <li>• Create mentorship opportunities</li>
-                  <li>• Establish scholarship fund</li>
+                  <li>• Expand middle school tutoring program</li>
+                  <li>• Develop youth leadership workshops</li>
+                  <li>• Create peer mentorship opportunities</li>
+                  <li>• Establish student volunteer awards</li>
                 </ul>
               </CardContent>
             </Card>

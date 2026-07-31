@@ -23,13 +23,13 @@ const Accomplishments = () => {
     {
       icon: Clock,
       label: "Volunteer Hours",
-      value: "270+",
+      value: "500+",
       description: "Hours of dedicated community service"
     },
     {
       icon: Trash,
       label: "Bags of Trash Cleaned",
-      value: "45+",
+      value: "60+",
       description: "Environmental impact through park cleanups"
     },
     {
